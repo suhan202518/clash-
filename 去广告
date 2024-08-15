@@ -32,7 +32,9 @@ ruleset=📹 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 
 ruleset=🎥 Netflix,hruleset=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
-
+ruleset=🎼 Spotify,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/spotify.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -57,8 +59,10 @@ custom_proxy_group=🎵 TikTok`select`[]🇸🇬 狮城节点-自动`[]🇯🇵 
 
 custom_proxy_group=📹 YouTube`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇺🇲 美国节点-自动`[]🚀 手动切换
 
-custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇺🇲 美国节点-自动`[]🚀 手动切换
-
+custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇺🇲 美国节点-自动`[]🇹🇼 台湾节点`[]🚀 手动切换
+custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇺🇲 美国节点-自动`[]🚀 手动切换
+custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🇹🇼 台湾节点-自动`[]🇭🇰 香港节点-自动
+custom_proxy_group=🇹🇼 台湾节点`select`(台|新北|彰化|TW|Taiwan)
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 手动切换
 
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 手动切换
