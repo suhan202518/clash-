@@ -1,0 +1,71 @@
+[custom]
+
+;不要随意改变关键字，否则会导致出错
+
+;acl4SSR规则
+
+
+
+
+;去广告：支持
+;自动测速：支持
+
+
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🎥 Emby直连,https://github.com/suhan202518/rule/blob/main/Embydirect.list
+ruleset=🎵 TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=📹 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=🎥 Netflix,hruleset=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
+ruleset=🎼 Spotify,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/spotify.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+
+
+
+
+custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=🎵 TikTok`select`[]🇸🇬 狮城节点-自动`[]🇯🇵 日本节点-自动`[]🇲🇾 大马节点-自动`[]🚀 手动切换`[]🚀 手动2
+custom_proxy_group=📹 YouTube`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇲🇾 大马节点-自动`[]🇺🇲 美国节点-自动`[]🇹🇼 台湾-手动`[]🚀 手动切换`[]🚀 手动2
+custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇲🇾 大马节点-自动`[]🇺🇲 美国节点-自动`[]🇹🇼 台湾-手动`[]🚀 手动切换`[]🚀 手动2
+custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇺🇲 美国节点-自动`[]🚀 手动切换
+custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🇹🇼 台湾节点-自动`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾-手动`[]🚀 手动2
+custom_proxy_group=🇹🇼 台湾-手动`select`(台|新北|彰化|TW|Taiwan)
+custom_proxy_group=🚀 手动2`select`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 手动切换
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 手动切换
+custom_proxy_group=🇭🇰 香港节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.gstatic.com/generate_204`300,100
+custom_proxy_group=🇯🇵 日本节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)).*$)`http://www.gstatic.com/generate_204`300,100
+custom_proxy_group=🇺🇲 美国节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`300,,150
+custom_proxy_group=🇹🇼 台湾节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|TW|Taiwan)).*$)`http://www.gstatic.com/generate_204`300,100
+custom_proxy_group=🇸🇬 狮城节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore)).*$)`http://www.gstatic.com/generate_204`300,100
+custom_proxy_group=🇲🇾 大马节点-自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:马来西亚|马来|吉隆坡|MYS|Malaysia)).*$)`http://www.gstatic.com/generate_204`300,100
+
+
+
+;设置分组标志位
+
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
+skip_failed_links=true
+
+
+
+#过滤节点，正则匹配
+
+exclude_remarks=(IPV6|重置|流量|用户|本站|漏洞|永久虚通路|车|邀|免翻|邀请|eevpn|域名|机场|刷新|禁止|备用登录|计划|面板|忘记|到期|套餐|官网|更多|关注|25倍率|http|增加|持续|渠道|购买|QQ|Ins|二手)
+
+
+
+;luck
