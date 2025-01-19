@@ -14,7 +14,7 @@
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=🎥 Emby直连,https://github.com/suhan202518/rule/blob/main/Embydirect.list
+ruleset=🎥 Emby直连,https://raw.githubusercontent.com/suhan202518/rule/refs/heads/main/Embydirect.list
 ruleset=🎵 TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
 ruleset=📹 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
@@ -33,6 +33,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 
 custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=🎥 Emby直连`[]DIRECT`.*
 custom_proxy_group=🎵 TikTok`select`[]🇸🇬 狮城节点-自动`[]🇯🇵 日本节点-自动`[]🇲🇾 大马节点-自动`[]🚀 手动切换`[]🚀 手动2
 custom_proxy_group=📹 YouTube`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇲🇾 大马节点-自动`[]🇺🇲 美国节点-自动`[]🇹🇼 台湾-手动`[]🚀 手动切换`[]🚀 手动2
 custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点-自动`[]🇹🇼 台湾节点-自动`[]🇯🇵 日本节点-自动`[]🇸🇬 狮城节点-自动`[]🇲🇾 大马节点-自动`[]🇺🇲 美国节点-自动`[]🇹🇼 台湾-手动`[]🚀 手动切换`[]🚀 手动2
